@@ -85,3 +85,14 @@
 #' @format A data frame with the following columns: \code{FileNames}, \code{SampleType}
 #'
 "covar_test"
+
+#' Example Trained MetaClean Model
+#'
+#' A list containing the trained model information for a MetaClean classifier.
+#'
+#' @format A list with the following slots: \code{method}, \code{modelInfo}, \code{modelType}, \code{results}, \code{pred},
+#' \code{bestTune}, \code{all}, \code{dots}, \code{metric}, \code{control}, \code{finalModel}, \code{preProcess},
+#' \code{trainingData}, \code{resample}, \code{resampledCM}, \code{perfNames}, \code{maximize}, \code{ylimits}, \code{times},
+#' \code{levels}, \code{terms}, \code{coefnames}, \code{xlevels}
+#'
+"example_model"
